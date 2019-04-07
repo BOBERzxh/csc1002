@@ -9,9 +9,10 @@
             "command": "echo Hello"
         },
         {
-            "label":"bokeh local",
-            "type":"shell",
-            "command":"bokeh serve --show ${file}"
+            "label": "bokeh local",
+            "type": "shell",
+            "command": "bokeh serve --show ${file}",
+            "problemMatcher": []
         }
     ]
 }
